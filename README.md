@@ -11,7 +11,7 @@ Technologies Used:
 
 * Python 3.7.6 & Jupyter Notebook
 * Modules: pandas, NumPy
-* Data Source: schools_data_set, students_data_set (.csv)
+* Data Source: [School Data (.csv)](Resources/schools_complete.csv "School Data (.csv)"), [Student Data (.csv)](Resources/students_complete.csv "Student Data (.csv)")
 
 ## Results
 
