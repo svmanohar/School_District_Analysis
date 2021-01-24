@@ -21,64 +21,68 @@ Once the exclusion was made, some key differences were apparent:
 
 ### District Summary
 
-| Description | DataFrame |
----------------------------
-| Original Dataset | district_summary_before |
-| Modified Dataset | district_summary_after |
+| Description              | DataFrame                                                  |
+|--------------------------|------------------------------------------------------------|
+| District Summary: Before | ![District_before](Resources/district_analysis_before.png) |
+| District Summary: After  | ![District_before](Resources/district_analysis_after.png)  |
 
 - No siginficant changes were seen when excluding Thomas High School's 9th grade class from the original analysis
-
+--------------------------------------
 ### School Summary
 
-| Description | DataFrame |
----------------------------
-| Original Dataset | school_summary_before |
-| Original Dataset with questionable data excluded | school_summary_9thNaN |
-| Modified Dataset with Thomas High School's 10-12th grade scores representing | school_summary_after |
+| Description                                            | DataFrame                                              |
+|--------------------------------------------------------|--------------------------------------------------------|
+| School Summary: Before                                 | ![School_before](Resources/school_analysis_before.png) |
+| School Summary: THS 9th Grade removed                  | ![School_9thNaN](Resources/school_analysis_9thNaN.png) |
+| School Summary: After replacing with THS 10-12th Grade | ![School_after](Resources/school_analysis_after.png)   |
 
 - As seen, there was no significant changes seen when excluding the 9th grade class of Thomas High School from the analysis. In the modified dataset, the 10-12th grade scores are similar to what was seen before when the 9th grade data was included
+--------------------------------------
 
-### Math & Reading Scores By Grade
+### Math Scores By Grade
 
-| Math Scores | DataFrame |
----------------------------
-| Original Dataset | math_scores_before |
-| Modified Dataset | math_scores_after | 
+| Description                  | DataFrame                                              |
+|------------------------------|--------------------------------------------------------|
+| Math Scores by Grade: Before | ![Math_before](Resources/math_scores_grade_before.png) |
+| Math Scores by Grade: After  | ![Math_after](Resources/math_scores_grade_after.png)   |
 
-| Reading Scores | DataFrame |
----------------------------
-| Original Dataset | reading_scores_before |
-| Modified Dataset | reading_scores_after |
+### Reading Scores By Grade
+
+| Description                     | DataFrame                                                    |
+|---------------------------------|--------------------------------------------------------------|
+| Reading Scores by Grade: Before | ![reading_before](Resources/reading_scores_grade_before.png) |
+| Reading Scores by Grade: After  | ![reading_after](Resources/reading_scores_grade_after.png)   |
 
 - Conclusion: 
-
+--------------------------------------
 
 ### Scores by Per-Student Capita
 
-| Scores by Per-Student Capita | DataFrame |
----------------------------
-| Original Dataset | math_scores_before |
-| Modified Dataset | math_scores_after | 
+| Description                          | DataFrame                                                 |
+|--------------------------------------|-----------------------------------------------------------|
+| Scores by Per-Student Capita: Before | ![capita_before](Resources/scores_by_spending_before.png) |
+| Scores by Per-Student Capita: After  | ![capita_after](Resources/scores_by_spending_after.png)   |
 
 - Conclusion: 
-
+--------------------------------------
 ### Scores by School Size
 
-| Scores by Size | DataFrame |
----------------------------
-| Original Dataset | math_scores_before |
-| Modified Dataset | math_scores_after | 
+| Description            | DataFrame                                           |
+|------------------------|-----------------------------------------------------|
+| Scores by Size: Before | ![size_before](Resources/scores_by_size_before.png) |
+| Scores by Size: After  | ![size_after](Resources/scores_by_size_after.png)   |
 
 - Conclusion: 
-
+--------------------------------------
 ### Scores by School Type (District vs Charter)
 
-| Scores by Type | DataFrame |
----------------------------
-| Original Dataset | math_scores_before |
-| Modified Dataset | math_scores_after | 
+| Description            | DataFrame                                           |
+|------------------------|-----------------------------------------------------|
+| Scores by Type: Before | ![type_before](Resources/scores_by_type_before.png) |
+| Scores by Type: After  | ![type_after](Resources/scores_by_type_after.png)   |
 
 - Conclusion: 
+--------------------------------------
 
 ## Summary
 
