@@ -21,20 +21,73 @@ Once the exclusion was made, some key differences were apparent:
 
 ### District Summary
 
+| Description | DataFrame |
+---------------------------
 | Original Dataset | district_summary_before |
 | Modified Dataset | district_summary_after |
 
-No siginficant changes were seen when excluding Thomas High School's 9th grade class from the original analysis
+- No siginficant changes were seen when excluding Thomas High School's 9th grade class from the original analysis
 
 ### School Summary
 
+| Description | DataFrame |
+---------------------------
 | Original Dataset | school_summary_before |
 | Original Dataset with questionable data excluded | school_summary_9thNaN |
 | Modified Dataset with Thomas High School's 10-12th grade scores representing | school_summary_after |
 
-As seen, there was no significant changes seen when excluding the 9th grade class of Thomas High School from the analysis. In the modified dataset, the 10-12th grade scores are similar to what was seen before when the 9th grade data was included
+- As seen, there was no significant changes seen when excluding the 9th grade class of Thomas High School from the analysis. In the modified dataset, the 10-12th grade scores are similar to what was seen before when the 9th grade data was included
 
-### 
+### Math & Reading Scores By Grade
+
+| Math Scores | DataFrame |
+---------------------------
+| Original Dataset | math_scores_before |
+| Modified Dataset | math_scores_after | 
+
+| Reading Scores | DataFrame |
+---------------------------
+| Original Dataset | reading_scores_before |
+| Modified Dataset | reading_scores_after |
+
+- Conclusion: 
+
+
+### Scores by Per-Student Capita
+
+| Scores by Per-Student Capita | DataFrame |
+---------------------------
+| Original Dataset | math_scores_before |
+| Modified Dataset | math_scores_after | 
+
+- Conclusion: 
+
+### Scores by School Size
+
+| Scores by Size | DataFrame |
+---------------------------
+| Original Dataset | math_scores_before |
+| Modified Dataset | math_scores_after | 
+
+- Conclusion: 
+
+### Scores by School Type (District vs Charter)
+
+| Scores by Type | DataFrame |
+---------------------------
+| Original Dataset | math_scores_before |
+| Modified Dataset | math_scores_after | 
+
+- Conclusion: 
+
+## Summary
+
+Four major changes between the original analysis and the updated analysis
+
+- 
+- 
+- 
+- 
 
 
 
